@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("netflixclicks/hero.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.45;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 68vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 59px;
+
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.textmain {
+    display: flex;
+    height: calc(100% - 62px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 19px;
+    padding: 0 30px;
+}
+
+.top {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.mid {
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+.end {
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*.start{
+    border-radius: 4px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+} */
+.line {
+    height: 7px;
+    background-color: rgb(83, 78, 78);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 300;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+
+}
+
+.btn-red {
+    padding: 3px 8px;
+    background-color: RED;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main input {
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.2);
+    font-weight: 100;
+    color: white;
+    border: 1px solid rgba(149, 149, 149, 0.984);
+
+}
+
+.buttons {
+    padding: 9px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionimg img {
+    width: 30vw;
+}
+
+.sectionimg {
+    position: relative;
+    
+}
+.sectionimg video{
+    display: inline-block;
+    vertical-align: baseline;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight:300px;
+}
